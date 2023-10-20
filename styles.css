@@ -6,7 +6,7 @@
 
 body{
     font-family: sans-serif;
-    background-color: #f5f6f7;
+    background-color: #0d1117;
 }
 .header{
     text-align: center;
@@ -20,7 +20,7 @@ body{
 
 .gallery{
     display:flex;
-    flex-direction: row;
+    flex-direction: row; 
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -43,8 +43,7 @@ body{
 
 .gallery img:hover{
     overflow: hidden;
-    transform: scale(1.1);
-    box-shadow: 0px 1px 1px 2px rgb(68, 66, 66);
+    box-shadow: 0px 1px 1px 2px rgb(255, 255, 255);
 }
 
 .fullscreen-container {
